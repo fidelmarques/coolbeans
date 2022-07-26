@@ -16,12 +16,10 @@ import {
   GiCoffeeCup,
 } from "react-icons/gi";
 import { MdFastfood } from "react-icons/md";
-
 import { BsCupStraw } from "react-icons/bs";
 
 function Product({ name, icon, price, state, set }) {
   const [quantity, setQuantity] = useState(0);
-  console.log(name);
 
   const addProduct = () => {
     setQuantity(quantity + 1);

@@ -65,5 +65,6 @@ export const Subtotal = styled.div`
     border-radius: 8px;
     color: #fafafa;
     text-shadow: 2px 2px 4px grey;
+    cursor: pointer;
   }
 `;
